@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E293B; /* Deep blue-gray background */
+}
+
+.container {
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+    background-color: #334155; /* Slate blue-gray color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #E2E8F0; /* Light gray for better contrast */
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #CBD5E1; /* Lighter gray text */
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #94A3B8; /* Lighter gray border */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #F1F5F9; /* Very light gray background */
+    color: #1E293B; /* Dark blue-gray text */
+}
+
+button {
+    width: 100%;
+    max-width: 200px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: #3B82F6; /* Vibrant blue button */
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2563EB; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+#results {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #E2E8F0; /* Light gray text */
+    font-weight: bold;
+}
+
+#weight-guide {
+    font-size: 14px;
+    color: #94A3B8; /* Lighter gray text */
+    margin-top: 10px;
+    font-style: italic;
+}
